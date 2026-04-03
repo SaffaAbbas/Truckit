@@ -31,7 +31,7 @@ export function WhyChooseUs({
             <h2 className="mt-3 text-3xl font-extrabold tracking-tight text-zinc-950 sm:text-4xl">
               {title}
             </h2>
-            <p className="mt-4 max-w-xl text-sm leading-7 text-zinc-600">
+            <p className="mt-4 max-w-xl text-sm leading-7 text-black font-sans">
               {description}
             </p>
 

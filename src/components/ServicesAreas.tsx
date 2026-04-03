@@ -37,14 +37,14 @@ export function ServicesAreas({
   imageSrc?: string;
 }) {
   return (
-    <section className="bg-[#F5F5F5] py-16">
+    <section className="bg-[#F5F5F5] py-16 font-sans text-black">
       <Container>
         <div className="max-w-3xl">
           <div className="text-xs font-medium text-[#4474E7]">{eyebrow}</div>
           <h2 className="mt-2 text-3xl font-extrabold tracking-tight text-zinc-950 sm:text-4xl">
             {title}
           </h2>
-          <p className="mt-3 text-sm leading-7 text-zinc-600">{intro}</p>
+          <p className="mt-3 text-sm leading-7">{intro}</p>
         </div>
 
         <div className="mt-10 grid gap-8 md:grid-cols-2">
@@ -68,7 +68,7 @@ export function ServicesAreas({
                 <h3 className="text-sm font-semibold text-zinc-950">
                   {s.title}
                 </h3>
-                <p className="mt-2 text-xs leading-6 text-zinc-600">
+                <p className="mt-2 text-xs leading-6">
                   {s.description}
                 </p>
               </div>

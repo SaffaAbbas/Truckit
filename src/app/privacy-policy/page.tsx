@@ -13,8 +13,8 @@ export default function PrivacyPolicyPage() {
       />
       <section className="bg-white py-16">
         <Container>
-          <div className="mx-auto max-w-4xl text-left">
-            <p className="text-sm leading-7 text-zinc-700">
+          <div className="mx-auto max-w-4xl text-left font-sans text-black">
+            <p className="text-sm leading-7">
               Truck It (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;)
               values your privacy. This Privacy Policy describes how we collect,
               use, store and share your personal information when you use our
@@ -35,10 +35,10 @@ export default function PrivacyPolicyPage() {
                 <h2 className="text-base font-semibold text-zinc-950">
                   1. Information We Collect
                 </h2>
-                <p className="mt-3 text-sm leading-7 text-zinc-700">
+                <p className="mt-3 text-sm leading-7">
                   We may collect the following personal data:
                 </p>
-                <div className="mt-4 space-y-4 text-sm leading-7 text-zinc-700">
+                <div className="mt-4 space-y-4 text-sm leading-7">
                   <p>
                     Information you provide: name, email address, phone number,
                     postal address, billing information, company name, job
@@ -61,10 +61,10 @@ export default function PrivacyPolicyPage() {
                 <h2 className="text-base font-semibold text-zinc-950">
                   2. How We Use Your Information
                 </h2>
-                <p className="mt-3 text-sm leading-7 text-zinc-700">
+                <p className="mt-3 text-sm leading-7">
                   We use your information for the following purposes:
                 </p>
-                <ul className="mt-4 space-y-2 text-sm leading-7 text-zinc-700">
+                <ul className="mt-4 space-y-2 text-sm leading-7">
                   <li>
                     Processing your booking/rental requests, contracts, and
                     payments.
@@ -93,11 +93,11 @@ export default function PrivacyPolicyPage() {
                 <h2 className="text-base font-semibold text-zinc-950">
                   3. Lawful Basis &amp; Data Protection under Bahamian Law
                 </h2>
-                <p className="mt-3 text-sm leading-7 text-zinc-700">
+                <p className="mt-3 text-sm leading-7">
                   We comply with the Data Protection (Privacy of Personal
                   Information) Act, 2003 of The Bahamas. (laws.bahamas.gov.bs)
                 </p>
-                <ul className="mt-4 space-y-2 text-sm leading-7 text-zinc-700">
+                <ul className="mt-4 space-y-2 text-sm leading-7">
                   <li>
                     Personal data is processed lawfully, fairly, and
                     transparently.
@@ -125,10 +125,10 @@ export default function PrivacyPolicyPage() {
                 <h2 className="text-base font-semibold text-zinc-950">
                   4. Sharing Your Information
                 </h2>
-                <p className="mt-3 text-sm leading-7 text-zinc-700">
+                <p className="mt-3 text-sm leading-7">
                   We may share personal data with:
                 </p>
-                <ul className="mt-4 space-y-2 text-sm leading-7 text-zinc-700">
+                <ul className="mt-4 space-y-2 text-sm leading-7">
                   <li>
                     Service providers (e.g. payment processors, IT/website
                     hosting, contractors) for performance of their services.
@@ -143,7 +143,7 @@ export default function PrivacyPolicyPage() {
                     this policy.
                   </li>
                 </ul>
-                <p className="mt-4 text-sm leading-7 text-zinc-700">
+                <p className="mt-4 text-sm leading-7">
                   We do not sell your personal information to third parties for
                   their direct marketing (unless you have given your explicit
                   consent).
@@ -154,10 +154,10 @@ export default function PrivacyPolicyPage() {
                 <h2 className="text-base font-semibold text-zinc-950">
                   5. Your Rights
                 </h2>
-                <p className="mt-3 text-sm leading-7 text-zinc-700">
+                <p className="mt-3 text-sm leading-7">
                   Under Bahamian law, you have rights including:
                 </p>
-                <ul className="mt-4 space-y-2 text-sm leading-7 text-zinc-700">
+                <ul className="mt-4 space-y-2 text-sm leading-7">
                   <li>To access personal data we hold about you.</li>
                   <li>To request correction or update of inaccurate data.</li>
                   <li>
@@ -186,16 +186,16 @@ export default function PrivacyPolicyPage() {
                 <h2 className="text-base font-semibold text-zinc-950">
                   6. Cookies &amp; Tracking
                 </h2>
-                <p className="mt-3 text-sm leading-7 text-zinc-700">
+                <p className="mt-3 text-sm leading-7">
                   We use cookies and similar technologies to provide, improve,
                   and analyze our service.
                 </p>
-                <p className="mt-3 text-sm leading-7 text-zinc-700">
+                <p className="mt-3 text-sm leading-7">
                   Cookies may be used for functionality (e.g. site login, quote
                   calculators, etc.), analytics (to understand how visitors use
                   our Site), and marketing (if you opt in).
                 </p>
-                <p className="mt-3 text-sm leading-7 text-zinc-700">
+                <p className="mt-3 text-sm leading-7">
                   You can disable cookies via your browser settings. Note: some
                   parts of the Site may not function properly if cookies are
                   disabled.
@@ -206,12 +206,12 @@ export default function PrivacyPolicyPage() {
                 <h2 className="text-base font-semibold text-zinc-950">
                   7. Data Retention
                 </h2>
-                <p className="mt-3 text-sm leading-7 text-zinc-700">
+                <p className="mt-3 text-sm leading-7">
                   We retain personal data for as long as needed to fulfill the
                   purposes set out in this policy (contractual, legal, or
                   business needs).
                 </p>
-                <p className="mt-3 text-sm leading-7 text-zinc-700">
+                <p className="mt-3 text-sm leading-7">
                   After that, personal data will be securely deleted or
                   anonymized.
                 </p>
@@ -221,7 +221,7 @@ export default function PrivacyPolicyPage() {
                 <h2 className="text-base font-semibold text-zinc-950">
                   8. Security
                 </h2>
-                <p className="mt-3 text-sm leading-7 text-zinc-700">
+                <p className="mt-3 text-sm leading-7">
                   We take reasonable steps to protect personal data from
                   unauthorized access, destruction, alteration, or disclosure.
                   These include secure servers, encryption where appropriate,
@@ -234,7 +234,7 @@ export default function PrivacyPolicyPage() {
                 <h2 className="text-base font-semibold text-zinc-950">
                   9. Changes to this Policy
                 </h2>
-                <p className="mt-3 text-sm leading-7 text-zinc-700">
+                <p className="mt-3 text-sm leading-7">
                   We may update this Privacy Policy periodically. We will post
                   any changes on this site and, where appropriate, notify you
                   via email. Your continued use of the Site after changes
@@ -246,11 +246,11 @@ export default function PrivacyPolicyPage() {
                 <h2 className="text-base font-semibold text-zinc-950">
                   10. Contact Us
                 </h2>
-                <p className="mt-3 text-sm leading-7 text-zinc-700">
+                <p className="mt-3 text-sm leading-7">
                   If you have questions about this Privacy Policy or how we
                   handle your personal data, please contact:
                 </p>
-                <div className="mt-3 text-sm leading-7 text-zinc-700">
+                <div className="mt-3 text-sm leading-7">
                   <div>Truck It Bahamas</div>
                   <div>
                     <a

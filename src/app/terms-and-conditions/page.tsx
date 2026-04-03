@@ -13,27 +13,25 @@ export default function TermsAndConditionsPage() {
       />
       <section className="bg-white py-16">
         <Container>
-          <div className="mx-auto max-w-4xl text-left">
-            <p className="text-sm leading-7 text-zinc-700">
-              These Terms &amp; Conditions (&quot;Terms&quot;) govern your use of
-              the Site and the services offered by Truck It Bahamas. By
+          <div className="mx-auto max-w-4xl text-left font-sans text-black">
+            <p className="text-sm leading-7">
+              These Terms &amp; Conditions (&quot;Terms&quot;) govern your use
+              of the Site and the services offered by Truck It Bahamas. By
               accessing or using the Site or renting equipment through us, you
               agree to these Terms.
             </p>
 
-            <div className="mt-10 space-y-4 text-sm leading-7 text-zinc-700">
+            <div className="mt-10 space-y-4 text-sm leading-7">
               <p>
                 Acknowledgement. These are the rules that apply to using this
                 service, as well as the contract between You (Customer) and the
-                Company (Truck It Bahamas).
-              </p>
-              <p>
-                All users&apos; rights and responsibilities in relation to using
-                the service are outlined in these Terms and Conditions. Your
-                acceptance of and adherence to these Terms and Conditions will
-                govern your access to and use of the service. All users,
-                visitors, and other individuals who access or use the service
-                are subject to these Terms and Conditions.
+                Company (Truck It Bahamas).All users&apos; rights and
+                responsibilities in relation to using the service are outlined
+                in these Terms and Conditions. Your acceptance of and adherence
+                to these Terms and Conditions will govern your access to and use
+                of the service. All users, visitors, and other individuals who
+                access or use the service are subject to these Terms and
+                Conditions.
               </p>
               <p>
                 You accept these Terms and Conditions by accessing or using the
@@ -76,37 +74,29 @@ export default function TermsAndConditionsPage() {
                 ownership may be found on our service. The Company has no
                 control over and accepts no liability for any third-party web
                 sites or services&apos; content, privacy policies, or practices.
-              </p>
-              <p>
                 You further acknowledge and agree that the Company shall not be
                 responsible or liable, directly or indirectly, for any injury or
                 damage of any kind resulting from use of or reliance on any such
                 content, goods, or services made available on or through any
                 such websites or services, whether such injury or damage is
                 foreseeable or arises from a negligent act or omission on the
-                part of the Company.
-              </p>
-              <p>
-                We firmly encourage that before using any third-party websites
-                or services, You read their terms of service and privacy
-                policies.
+                part of the Company. We firmly encourage that before using any
+                third-party websites or services, You read their terms of
+                service and privacy policies.
               </p>
               <p>
                 Termination Without Warning or Liability. We reserve the right
                 to immediately cancel or suspend your use of this website for
                 any reason, including, without limitation, if You violate these
-                Terms and Conditions.
-              </p>
-              <p>
-                Limitation of Liability. To the fullest extent permitted by
-                law, in no event shall the Company or its suppliers be liable
-                for any special, incidental, indirect, or consequential damages
-                of any kind (including, but not limited to, damages for loss of
-                profits, loss of data or other information, for business
-                interruption, for personal injury, for loss of privacy, or
-                otherwise arising out of or connected to the use of or inability
-                to use the Service, third-party software, and/or third-party
-                hardware).
+                Terms and Conditions. Limitation of Liability. To the fullest
+                extent permitted by law, in no event shall the Company or its
+                suppliers be liable for any special, incidental, indirect, or
+                consequential damages of any kind (including, but not limited
+                to, damages for loss of profits, loss of data or other
+                information, for business interruption, for personal injury, for
+                loss of privacy, or otherwise arising out of or connected to the
+                use of or inability to use the Service, third-party software,
+                and/or third-party hardware).
               </p>
               <p>
                 Governing Law. The terms of this agreement and your use of the
@@ -134,27 +124,16 @@ export default function TermsAndConditionsPage() {
               <p>
                 Changes to These Terms and Conditions. We reserve the right to
                 alter or amend these Terms at any moment, in our sole
-                discretion. We shall use reasonable efforts to give You at
-                least 30 days&apos; notice before any new terms go into effect
-                if the adjustment is important. We reserve the right to judge
-                what constitutes a material change. You agree to be bound by the
+                discretion. We shall use reasonable efforts to give You at least
+                30 days&apos; notice before any new terms go into effect if the
+                adjustment is important. We reserve the right to judge what
+                constitutes a material change. You agree to be bound by the
                 amended terms if You access or use our service after such
                 revisions take effect.
               </p>
               <p>
                 Please discontinue using the website and the service if, in
                 whole or in part, You disagree with the new terms.
-              </p>
-              <p>
-                If you have any questions about these Terms &amp; Conditions,
-                you can contact us at{" "}
-                <a
-                  className="font-medium text-[#4474E7] hover:underline"
-                  href="mailto:info@truckitbahamas.com"
-                >
-                  info@truckitbahamas.com
-                </a>
-                .
               </p>
             </div>
           </div>
@@ -164,4 +143,3 @@ export default function TermsAndConditionsPage() {
     </>
   );
 }
-
