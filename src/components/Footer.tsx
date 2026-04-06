@@ -3,12 +3,12 @@ import Image from "next/image";
 import { Container } from "./Container";
 
 const quickLinks = [
-  { href: "/", label: "Home" },
-  { href: "/about-us", label: "About us" },
-  { href: "/services", label: "Services" },
-  { href: "/trucks", label: "Trucks" },
-  { href: "/request-a-quote", label: "Request a quote" },
-];
+  { href: "/#home", label: "Home" },
+  { href: "/#about", label: "About us" },
+  { href: "/#services", label: "Services" },
+  { href: "/#trucks", label: "Trucks" },
+  { href: "/#quote", label: "Request a quote" },
+] as const;
 
 function PhoneIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
