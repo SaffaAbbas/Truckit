@@ -218,14 +218,18 @@ export function Header() {
 
                   <div className="flex items-center gap-3 text-zinc-900">
                     <a
-                      href="#"
+                      href="https://www.facebook.com/truckitbahamas"
+                      target="_blank"
+                      rel="noreferrer"
                       aria-label="Facebook"
                       className="rounded-md p-2 hover:bg-zinc-100"
                     >
                       <FacebookIcon className="h-5 w-5" />
                     </a>
                     <a
-                      href="#"
+                      href="https://www.instagram.com/truckitbahamas/"
+                      target="_blank"
+                      rel="noreferrer"
                       aria-label="Instagram"
                       className="rounded-md p-2 hover:bg-zinc-100"
                     >

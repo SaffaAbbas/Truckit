@@ -125,14 +125,18 @@ export function Footer() {
 
               <div className="flex items-center justify-center md:justify-start gap-3 pt-1 text-white/90">
                 <a
-                  href="#"
+                  href="https://www.facebook.com/truckitbahamas"
+                  target="_blank"
+                  rel="noreferrer"
                   aria-label="Facebook"
                   className="rounded-md p-1 hover:bg-white/10"
                 >
                   <FacebookIcon className="h-5 w-5" />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.instagram.com/truckitbahamas/"
+                  target="_blank"
+                  rel="noreferrer"
                   aria-label="Instagram"
                   className="rounded-md p-1 hover:bg-white/10"
                 >
