@@ -14,7 +14,7 @@ export default function Home() {
         <WhyChooseUs imageSrc="/images/labour.png" />
       </section>
       <section id="services">
-        <ServicesAreas imageSrc="/images/truck.png" />
+        <ServicesAreas />
       </section>
       <section id="trucks">
         <OurTrucks imageSrc="/images/truck2.png" />

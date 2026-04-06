@@ -28,9 +28,9 @@ export function Hero({
             alt=""
             fill
             priority
-            className="object-cover"
+            className="object-cover brightness-150"
           />
-          <div className="absolute inset-0 bg-black/35" />
+          <div className="absolute inset-0 bg-black/5" />
         </div>
 
         <Container>
@@ -45,7 +45,7 @@ export function Hero({
             } ${contentClassName}`}
           >
             <div className="max-w-2xl">
-              <h1 className="text-balance text-3xl font-extrabold uppercase leading-tight tracking-tight text-white sm:text-4xl lg:text-5xl">
+              <h1 className="font-heading text-balance text-2xl font-extrabold uppercase leading-tight tracking-tight text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.55)] sm:text-3xl lg:text-4xl">
                 {title}
               </h1>
               {showCta ? (

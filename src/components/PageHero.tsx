@@ -4,7 +4,7 @@ import { Container } from "./Container";
 export function PageHero({
   title,
   backgroundImageSrc = "/images/bg.png",
-  overlayClassName = "bg-black/35",
+  overlayClassName = "bg-black/5",
 }: {
   title: string;
   backgroundImageSrc?: string;
@@ -19,14 +19,14 @@ export function PageHero({
             alt=""
             fill
             priority
-            className="object-cover"
+            className="object-cover brightness-150"
           />
           <div className={`absolute inset-0 ${overlayClassName}`} />
         </div>
 
         <Container>
           <div className="relative flex min-h-[520px] items-center pt-16 sm:min-h-[600px] lg:min-h-[720px]">
-            <h1 className="max-w-2xl text-balance text-3xl font-extrabold uppercase leading-tight tracking-tight text-white sm:text-4xl lg:text-5xl">
+            <h1 className="font-heading max-w-2xl text-balance text-2xl font-extrabold uppercase leading-tight tracking-tight text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.55)] sm:text-3xl lg:text-4xl">
               {title}
             </h1>
           </div>

@@ -12,7 +12,7 @@ const defaultSpecs = [
 export function OurTrucks({
   eyebrow = "Our Trucks",
   title = "BUILT TO MOVE HEAVY LOADS SAFELY AND EFFICIENTLY",
-  description = "Our 6×4 truck is designed for heavy-duty transport, construction logistics, and industrial hauling.",
+  description = "Our 6×4 truck is designed for heavy-duty transport, construction logistics, industrial hauling, transportation and operator included.",
   specsTitle = "Truck Specifications:",
   specs = defaultSpecs,
   imageSrc = "/images/truck2.png",
@@ -42,7 +42,7 @@ export function OurTrucks({
 
           <div>
             <div className="text-xs font-medium text-[#4474E7]">{eyebrow}</div>
-            <h2 className="mt-2 text-3xl font-extrabold tracking-tight text-zinc-950 sm:text-4xl">
+            <h2 className="font-heading mt-2 text-2xl font-extrabold tracking-tight text-zinc-950 sm:text-3xl">
               {title}
             </h2>
             <p className="mt-3 text-sm leading-6 text-zinc-700">
@@ -66,4 +66,3 @@ export function OurTrucks({
     </section>
   );
 }
-
