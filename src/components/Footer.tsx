@@ -125,7 +125,7 @@ export function Footer() {
 
               <div className="flex items-center justify-center md:justify-start gap-3 pt-1 text-white/90">
                 <a
-                  href="https://www.facebook.com/truckitbahamas"
+                  href="https://www.facebook.com/profile.php?id=61585079669583"
                   target="_blank"
                   rel="noreferrer"
                   aria-label="Facebook"

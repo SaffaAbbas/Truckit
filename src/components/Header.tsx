@@ -218,7 +218,7 @@ export function Header() {
 
                   <div className="flex items-center gap-3 text-zinc-900">
                     <a
-                      href="https://www.facebook.com/truckitbahamas"
+                      href="https://www.facebook.com/profile.php?id=61585079669583"
                       target="_blank"
                       rel="noreferrer"
                       aria-label="Facebook"
