@@ -103,27 +103,27 @@ export function Footer() {
           </div>
 
           {/* Contact */}
-          <div className="text-sm flex flex-col items-center md:items-start">
-            <div className="mb-4 font-semibold text-white/90">
+          <div className="flex flex-col items-center text-sm md:items-start">
+            <div className="mb-4 text-center font-semibold text-white/90 md:text-left">
               Connect with us
             </div>
-            <div className="space-y-3 text-white/80">
+            <div className="flex w-full flex-col items-center space-y-3 text-white/80 md:items-start">
               <a
                 href="tel:+12428143648"
-                className="flex items-center gap-2 hover:text-white"
+                className="flex w-full items-center justify-center gap-2 hover:text-white md:w-auto md:justify-start"
               >
-                <PhoneIcon className="h-4 w-4" />
+                <PhoneIcon className="h-4 w-4 shrink-0" />
                 +1 (242) 814-3648
               </a>
               <a
                 href="mailto:info@truckitbahamas.com"
-                className="flex items-center gap-2 hover:text-white"
+                className="flex w-full items-center justify-center gap-2 text-center hover:text-white md:w-auto md:justify-start md:text-left"
               >
-                <MailIcon className="h-4 w-4" />
+                <MailIcon className="h-4 w-4 shrink-0" />
                 info@truckitbahamas.com
               </a>
 
-              <div className="flex items-center justify-center md:justify-start gap-3 pt-1 text-white/90">
+              <div className="flex items-center justify-center gap-3 pt-1 text-white/90 md:justify-start">
                 <a
                   href="https://www.facebook.com/profile.php?id=61585079669583"
                   target="_blank"
@@ -153,7 +153,7 @@ export function Footer() {
             Copyright © 2026 Truck it Bahamas. All rights reserved.
           </div>
 
-          <div className="flex justify-center md:justify-end items-center gap-4">
+          <div className="flex w-full justify-center items-center gap-4 md:w-auto md:justify-end">
             <Link href="/privacy-policy" className="hover:text-white">
               Privacy Policy
             </Link>

@@ -26,7 +26,7 @@ export function PageHero({
 
         <Container>
           <div className="relative flex min-h-[520px] items-center pt-16 sm:min-h-[600px] lg:min-h-[720px]">
-            <h1 className="font-heading max-w-2xl text-balance text-2xl font-extrabold uppercase leading-tight tracking-tight text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.55)] sm:text-3xl lg:text-4xl">
+            <h1 className="font-heading max-w-2xl text-balance text-xl font-extrabold uppercase leading-tight tracking-tight text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.55)] sm:text-3xl lg:text-4xl">
               {title}
             </h1>
           </div>

@@ -51,7 +51,7 @@ export function RequestQuoteSection({
       <div className="grid items-stretch lg:grid-cols-2">
         <div className="flex items-center py-8 sm:py-10 lg:py-12">
           <div className="w-full max-w-[600px] ml-auto px-6 lg:px-12">
-            <h2 className="font-heading text-2xl font-extrabold uppercase leading-tight tracking-tight text-zinc-950 sm:text-3xl">
+            <h2 className="font-heading text-xl font-extrabold uppercase leading-tight tracking-tight text-zinc-950 sm:text-3xl">
               {title}
             </h2>
 

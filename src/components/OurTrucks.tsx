@@ -42,7 +42,7 @@ export function OurTrucks({
 
           <div>
             <div className="text-xs font-medium text-[#4474E7]">{eyebrow}</div>
-            <h2 className="font-heading mt-2 text-2xl font-extrabold tracking-tight text-zinc-950 sm:text-3xl">
+            <h2 className="font-heading mt-2 text-xl font-extrabold tracking-tight text-zinc-950 sm:text-3xl">
               {title}
             </h2>
             <p className="mt-3 text-sm leading-6 text-zinc-700">

@@ -28,7 +28,7 @@ export function WhyChooseUs({
             >
               {eyebrow}
             </Link>
-            <h2 className="font-heading mt-3 text-2xl font-extrabold tracking-tight text-zinc-950 sm:text-3xl">
+            <h2 className="font-heading mt-3 text-xl font-extrabold tracking-tight text-zinc-950 sm:text-3xl">
               {title}
             </h2>
             <p className="mt-4 max-w-xl text-sm leading-7 text-black font-sans">

@@ -45,7 +45,7 @@ export function Hero({
             } ${contentClassName}`}
           >
             <div className="max-w-2xl">
-              <h1 className="font-heading text-balance text-2xl font-extrabold uppercase leading-tight tracking-tight text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.55)] sm:text-3xl lg:text-4xl">
+              <h1 className="font-heading text-balance text-xl font-extrabold uppercase leading-tight tracking-tight text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.55)] sm:text-3xl lg:text-4xl">
                 {title}
               </h1>
               {showCta ? (
