@@ -1,10 +1,10 @@
 import Image from "next/image";
-import Link from "next/link";
 import { Container } from "./Container";
+import { RequestQuoteLink } from "./RequestQuoteLink";
 
 const services = [
   {
-    title: "Heavy Equipment",
+    title: "Heavy Equipment Transport",
     description:
       "We transport heavy construction and industrial equipment using lowboy, flatbed, and step-deck trailers. We support excavators, loaders, compactors, generators, and more—ensuring efficient mobilization, demobilization, and site-to-site delivery.",
     imageSrc: "/images/truck.png",
@@ -77,12 +77,9 @@ export function ServicesAreas({
         </div>
 
         <div className="mt-10 flex justify-center">
-          <Link
-            href="/request-a-quote"
-            className="inline-flex h-10 items-center justify-center rounded bg-[#4474E7] px-6 text-[11px] font-semibold uppercase tracking-wide text-white hover:bg-[#3b66cc]"
-          >
+          <RequestQuoteLink className="inline-flex h-10 items-center justify-center rounded bg-[#4474E7] px-6 text-[11px] font-semibold uppercase tracking-wide text-white hover:bg-[#3b66cc]">
             Request a quote
-          </Link>
+          </RequestQuoteLink>
         </div>
       </Container>
     </section>

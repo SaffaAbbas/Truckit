@@ -12,7 +12,7 @@ const defaultSpecs = [
 export function OurTrucks({
   eyebrow = "Our Trucks",
   title = "BUILT TO MOVE HEAVY LOADS SAFELY AND EFFICIENTLY",
-  description = "Our 6×4 truck is designed for heavy-duty transport, construction logistics, industrial hauling, transportation and operator included.",
+  description = " Our 6×4 truck is designed for heavy-duty transport, construction logistics, and industrial hauling. Transportation and operator included.",
   specsTitle = "Truck Specifications:",
   specs = defaultSpecs,
   imageSrc = "/images/truck2.png",

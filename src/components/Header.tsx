@@ -3,7 +3,9 @@
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 import { Container } from "./Container";
+import { RequestQuoteLink } from "./RequestQuoteLink";
 
 const navLinks = [
   { href: "/#home", label: "Home" },
@@ -84,6 +86,13 @@ function InstagramIcon(props: React.SVGProps<SVGSVGElement>) {
 export function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const links = useMemo(() => navLinks, []);
+  const pathname = usePathname();
+
+  useEffect(() => {
+    // Ensure scroll-lock is never carried across navigations.
+    setMobileOpen(false);
+    document.body.style.overflow = "";
+  }, [pathname]);
 
   useEffect(() => {
     if (!mobileOpen) return;
@@ -240,13 +249,12 @@ export function Header() {
               </div>
 
               <div className="px-6 pb-8">
-                <Link
-                  href="/#quote"
+                <RequestQuoteLink
                   onClick={() => setMobileOpen(false)}
                   className="flex h-12 w-full items-center justify-center rounded bg-[#4474E7] text-xs font-semibold uppercase tracking-wide text-white hover:bg-[#3b66cc]"
                 >
                   REQUEST A QUOTE
-                </Link>
+                </RequestQuoteLink>
               </div>
             </div>
           </div>

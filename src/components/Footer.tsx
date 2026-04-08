@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Container } from "./Container";
+import { RequestQuoteLink } from "./RequestQuoteLink";
 
 const quickLinks = [
   { href: "/#home", label: "Home" },
@@ -94,9 +95,15 @@ export function Footer() {
             <ul className="space-y-2 text-white/80 text-center md:text-left">
               {quickLinks.map((l) => (
                 <li key={l.href}>
-                  <Link href={l.href} className="hover:text-white">
-                    {l.label}
-                  </Link>
+                  {l.href === "/#quote" ? (
+                    <RequestQuoteLink className="hover:text-white">
+                      {l.label}
+                    </RequestQuoteLink>
+                  ) : (
+                    <Link href={l.href} className="hover:text-white">
+                      {l.label}
+                    </Link>
+                  )}
                 </li>
               ))}
             </ul>

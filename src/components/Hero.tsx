@@ -1,6 +1,6 @@
-import Link from "next/link";
 import Image from "next/image";
 import { Container } from "./Container";
+import { RequestQuoteLink } from "./RequestQuoteLink";
 
 export function Hero({
   title = "YOUR RELIABLE HEAVY LOAD TRANSPORTATION ACROSS NASSAU",
@@ -50,12 +50,18 @@ export function Hero({
               </h1>
               {showCta ? (
                 <div className="mt-6">
-                  <Link
-                    href={ctaHref}
-                    className="inline-flex items-center rounded bg-[#4474E7] px-5 py-3 text-xs font-semibold uppercase tracking-wide text-white shadow-sm hover:bg-[#3b66cc]"
-                  >
-                    {ctaLabel}
-                  </Link>
+                  {ctaHref === "/#quote" ? (
+                    <RequestQuoteLink className="inline-flex items-center rounded bg-[#4474E7] px-5 py-3 text-xs font-semibold uppercase tracking-wide text-white shadow-sm hover:bg-[#3b66cc]">
+                      {ctaLabel}
+                    </RequestQuoteLink>
+                  ) : (
+                    <a
+                      href={ctaHref}
+                      className="inline-flex items-center rounded bg-[#4474E7] px-5 py-3 text-xs font-semibold uppercase tracking-wide text-white shadow-sm hover:bg-[#3b66cc]"
+                    >
+                      {ctaLabel}
+                    </a>
+                  )}
                 </div>
               ) : null}
             </div>

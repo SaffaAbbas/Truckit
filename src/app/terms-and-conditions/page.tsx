@@ -14,6 +14,9 @@ export default function TermsAndConditionsPage() {
       <section className="bg-white py-16">
         <Container>
           <div className="mx-auto max-w-4xl text-left font-sans text-black">
+            <p className="text-sm font-medium text-zinc-700">
+              Last updated: April, 2026
+            </p>
             <p className="mt-4 text-sm leading-7">
               These Terms and Conditions (&quot;Terms&quot;) govern your access
               to and use of the website{" "}
