@@ -40,24 +40,24 @@ export function Hero({
             } ${contentClassName}`}
           > */}
           <div
-            className={`relative px-0 py-24 sm:py-32 lg:py-40 ${
+            className={`relative px-0 pb-24 pt-44 sm:py-32 lg:pb-40 lg:pt-64 ${
               headerOffset ? "pt-32 sm:pt-36 lg:pt-44" : ""
             } ${contentClassName}`}
           >
-            <div className="max-w-2xl">
-              <h1 className="font-heading text-balance text-xl font-extrabold uppercase leading-tight tracking-tight text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.55)] sm:text-3xl lg:text-4xl">
+            <div className="mx-auto max-w-2xl text-center sm:mx-0 sm:text-left">
+              <h1 className="font-heading text-balance text-[20px] font-extrabold uppercase leading-[1.35] tracking-tight text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.55)] sm:text-3xl sm:leading-tight lg:text-4xl">
                 {title}
               </h1>
               {showCta ? (
-                <div className="mt-6">
+                <div className="mt-6 flex justify-center sm:block">
                   {ctaHref === "/#quote" ? (
-                    <RequestQuoteLink className="inline-flex items-center rounded bg-[#4474E7] px-5 py-3 text-xs font-semibold uppercase tracking-wide text-white shadow-sm hover:bg-[#3b66cc]">
+                    <RequestQuoteLink className="inline-flex w-full max-w-[360px] items-center justify-center rounded-md bg-[#4474E7] px-6 py-3.5 text-sm font-semibold uppercase tracking-wide text-white shadow-sm hover:bg-[#3b66cc] sm:w-auto sm:max-w-none sm:justify-start sm:px-5 sm:py-3 sm:text-xs">
                       {ctaLabel}
                     </RequestQuoteLink>
                   ) : (
                     <a
                       href={ctaHref}
-                      className="inline-flex items-center rounded bg-[#4474E7] px-5 py-3 text-xs font-semibold uppercase tracking-wide text-white shadow-sm hover:bg-[#3b66cc]"
+                      className="inline-flex w-full max-w-[360px] items-center justify-center rounded-md bg-[#4474E7] px-6 py-3.5 text-sm font-semibold uppercase tracking-wide text-white shadow-sm hover:bg-[#3b66cc] sm:w-auto sm:max-w-none sm:justify-start sm:px-5 sm:py-3 sm:text-xs"
                     >
                       {ctaLabel}
                     </a>

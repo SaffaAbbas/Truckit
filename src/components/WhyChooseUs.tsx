@@ -28,19 +28,21 @@ export function WhyChooseUs({
             >
               {eyebrow}
             </Link>
-            <h2 className="font-heading mt-3 text-xl font-extrabold tracking-tight text-zinc-950 sm:text-3xl">
+            <h2 className="font-heading mt-3 text-[20px] font-extrabold leading-[1.25] tracking-tight text-zinc-950 sm:text-3xl sm:leading-tight">
               {title}
             </h2>
             <p className="mt-4 max-w-xl text-sm leading-7 text-black font-sans">
               {description}
             </p>
 
-            <a
-              href={buttonHref}
-              className="mt-8 inline-flex h-11 items-center justify-center rounded bg-[#4474E7] px-6 text-xs font-semibold uppercase tracking-wide text-white hover:bg-[#3b66cc]"
-            >
-              {buttonLabel}
-            </a>
+            <div className="mt-8 flex justify-center sm:block">
+              <a
+                href={buttonHref}
+                className="inline-flex h-12 w-full max-w-[360px] items-center justify-center rounded-md bg-[#4474E7] px-6 text-sm font-semibold uppercase tracking-wide text-white hover:bg-[#3b66cc] sm:h-11 sm:w-auto sm:max-w-none sm:rounded sm:text-xs"
+              >
+                {buttonLabel}
+              </a>
+            </div>
           </div>
 
           <div className="relative overflow-hidden rounded-xl bg-zinc-100">

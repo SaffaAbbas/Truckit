@@ -251,7 +251,7 @@ export function Header() {
               <div className="px-6 pb-8">
                 <RequestQuoteLink
                   onClick={() => setMobileOpen(false)}
-                  className="flex h-12 w-full items-center justify-center rounded bg-[#4474E7] text-xs font-semibold uppercase tracking-wide text-white hover:bg-[#3b66cc]"
+                  className="mx-auto flex h-12 w-full max-w-[360px] items-center justify-center rounded-md bg-[#4474E7] text-sm font-semibold uppercase tracking-wide text-white hover:bg-[#3b66cc] sm:max-w-none sm:rounded sm:text-xs"
                 >
                   REQUEST A QUOTE
                 </RequestQuoteLink>

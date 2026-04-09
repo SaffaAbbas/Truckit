@@ -77,7 +77,7 @@ export function ServicesAreas({
         </div>
 
         <div className="mt-10 flex justify-center">
-          <RequestQuoteLink className="inline-flex h-10 items-center justify-center rounded bg-[#4474E7] px-6 text-[11px] font-semibold uppercase tracking-wide text-white hover:bg-[#3b66cc]">
+          <RequestQuoteLink className="inline-flex h-12 w-full max-w-[360px] items-center justify-center rounded-md bg-[#4474E7] px-6 text-sm font-semibold uppercase tracking-wide text-white hover:bg-[#3b66cc] sm:h-10 sm:w-auto sm:max-w-none sm:rounded sm:text-[11px]">
             Request a quote
           </RequestQuoteLink>
         </div>

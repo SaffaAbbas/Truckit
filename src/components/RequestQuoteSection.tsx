@@ -100,12 +100,14 @@ export function RequestQuoteSection({
                 className="w-full border-b border-zinc-300 bg-transparent pb-3 text-sm text-black outline-none focus:border-[#4474E7]"
               />
 
-              <button
-                type="submit"
-                className="inline-flex h-11 items-center justify-center bg-[#4474E7] px-7 text-[11px] font-semibold uppercase tracking-wide text-white hover:bg-[#3b66cc]"
-              >
-                Request a quote
-              </button>
+              <div className="flex justify-center pt-2">
+                <button
+                  type="submit"
+                  className="inline-flex h-12 w-full max-w-[360px] items-center justify-center rounded-md bg-[#4474E7] px-7 text-sm font-semibold uppercase tracking-wide text-white hover:bg-[#3b66cc] sm:h-11 sm:w-auto sm:max-w-none sm:rounded sm:text-[11px]"
+                >
+                  Request a quote
+                </button>
+              </div>
             </form>
           </div>
         </div>
@@ -167,7 +169,7 @@ export function RequestQuoteSection({
               <Link
                 href="/"
                 onClick={() => setThankYouOpen(false)}
-                className="mt-8 inline-flex h-11 w-full max-w-xs items-center justify-center bg-[#4474E7] px-6 text-[11px] font-semibold uppercase tracking-wide text-white hover:bg-[#3b66cc] sm:h-12"
+                className="mt-8 inline-flex h-12 w-full max-w-[360px] items-center justify-center rounded-md bg-[#4474E7] px-6 text-sm font-semibold uppercase tracking-wide text-white hover:bg-[#3b66cc] sm:h-12 sm:max-w-xs sm:rounded sm:text-[11px]"
               >
                 Back to home
               </Link>
