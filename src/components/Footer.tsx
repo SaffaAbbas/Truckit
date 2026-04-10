@@ -134,24 +134,24 @@ export function Footer() {
                 info@truckitbahamas.com
               </a>
 
-              <div className="flex items-center justify-center gap-2 pt-1 text-white/90 md:justify-start">
+              <div className="flex items-center justify-center gap-2 pt-1 text-white/90 md:justify-start md:-ml-1">
                 <a
                   href="https://www.facebook.com/profile.php?id=61585079669583"
                   target="_blank"
                   rel="noreferrer"
                   aria-label="Facebook"
-                  className="inline-flex h-9 w-9 items-center justify-center rounded-md hover:bg-white/10"
+                  className="inline-flex items-center justify-center rounded-md p-1 hover:bg-white/10"
                 >
-                  <FacebookIcon className="h-5 w-5" />
+                  <FacebookIcon className="block h-5 w-5" />
                 </a>
                 <a
                   href="https://www.instagram.com/truckitbahamas/"
                   target="_blank"
                   rel="noreferrer"
                   aria-label="Instagram"
-                  className="inline-flex h-9 w-9 items-center justify-center rounded-md hover:bg-white/10"
+                  className="inline-flex items-center justify-center rounded-md p-1 hover:bg-white/10"
                 >
-                  <InstagramIcon className="h-5 w-5 translate-y-[1px]" />
+                  <InstagramIcon className="block h-5 w-5" />
                 </a>
               </div>
             </div>

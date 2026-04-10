@@ -9,6 +9,7 @@ export default function TermsAndConditionsPage() {
         title="TERMS & CONDITIONS"
         backgroundImageSrc="/images/bg.png"
         showCta={false}
+        contentClassName="lg:pt-80 lg:pb-56"
       />
       <section className="bg-white py-16">
         <Container>
