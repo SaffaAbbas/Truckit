@@ -134,7 +134,7 @@ export function Footer() {
                 info@truckitbahamas.com
               </a>
 
-              <div className="flex items-center justify-center gap-2 pt-1 text-white/90 md:justify-start md:-ml-1">
+              <div className="flex items-center justify-center gap-1 pt-1 text-white/90 md:justify-start md:gap-2 md:-ml-1">
                 <a
                   href="https://www.facebook.com/profile.php?id=61585079669583"
                   target="_blank"

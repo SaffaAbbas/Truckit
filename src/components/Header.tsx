@@ -229,24 +229,24 @@ export function Header() {
                     </a>
                   </div>
 
-                  <div className="flex items-center gap-2 text-zinc-900">
+                  <div className="flex items-center gap-1 text-zinc-900">
                     <a
                       href="https://www.facebook.com/profile.php?id=61585079669583"
                       target="_blank"
                       rel="noreferrer"
                       aria-label="Facebook"
-                      className="inline-flex h-9 w-9 items-center justify-center rounded-md hover:bg-zinc-100"
+                      className="inline-flex items-center justify-center rounded-md p-1 hover:bg-zinc-100"
                     >
-                      <FacebookIcon className="h-5 w-5" />
+                      <FacebookIcon className="block h-5 w-5" />
                     </a>
                     <a
                       href="https://www.instagram.com/truckitbahamas/"
                       target="_blank"
                       rel="noreferrer"
                       aria-label="Instagram"
-                      className="inline-flex h-9 w-9 items-center justify-center rounded-md hover:bg-zinc-100"
+                      className="inline-flex items-center justify-center rounded-md p-1 hover:bg-zinc-100"
                     >
-                      <InstagramIcon className="h-5 w-5 translate-y-[1px]" />
+                      <InstagramIcon className="block h-5 w-5" />
                     </a>
                   </div>
                 </div>
