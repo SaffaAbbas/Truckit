@@ -19,7 +19,7 @@ export default function Home() {
       <section id="trucks">
         <OurTrucks imageSrc="/images/truck2.png" />
       </section>
-      <section id="quote">
+      <section id="quote" className="scroll-mt-24 sm:scroll-mt-28">
         <RequestQuoteSection imageSrc="/images/truck3.png" />
       </section>
     </>

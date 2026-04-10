@@ -113,7 +113,14 @@ export function RequestQuoteSection({
         </div>
 
         <div className="relative h-full min-h-[300px] lg:min-h-[380px] w-full">
-          <Image src={imageSrc} alt="" fill className="object-cover" priority />
+          <Image
+            src={imageSrc}
+            alt=""
+            fill
+            className="object-cover"
+            sizes="(min-width: 1024px) 50vw, 100vw"
+            priority
+          />
         </div>
       </div>
 

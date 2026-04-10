@@ -28,7 +28,7 @@ export function Hero({
             alt=""
             fill
             priority
-            className="object-cover brightness-150"
+            className="object-cover object-[80%_center] sm:object-center brightness-150"
           />
           <div className="absolute inset-0 bg-black/5" />
         </div>

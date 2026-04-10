@@ -57,10 +57,12 @@ function CloseIcon(props: React.SVGProps<SVGSVGElement>) {
 function FacebookIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" {...props}>
-      <path
-        d="M14 9h2V6h-2c-1.7 0-3 1.3-3 3v2H9v3h2v7h3v-7h2.2l.8-3H14V9c0-.6.4-1 1-1Z"
-        fill="currentColor"
-      />
+      <g transform="translate(0.5 0.25) scale(1.12)">
+        <path
+          d="M14 9h2V6h-2c-1.7 0-3 1.3-3 3v2H9v3h2v7h3v-7h2.2l.8-3H14V9c0-.6.4-1 1-1Z"
+          fill="currentColor"
+        />
+      </g>
     </svg>
   );
 }
@@ -68,17 +70,19 @@ function FacebookIcon(props: React.SVGProps<SVGSVGElement>) {
 function InstagramIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" {...props}>
-      <path
-        d="M8 3.8h8A4.2 4.2 0 0 1 20.2 8v8A4.2 4.2 0 0 1 16 20.2H8A4.2 4.2 0 0 1 3.8 16V8A4.2 4.2 0 0 1 8 3.8Z"
-        stroke="currentColor"
-        strokeWidth="1.6"
-      />
-      <path
-        d="M12 9.1a2.9 2.9 0 1 0 0 5.8 2.9 2.9 0 0 0 0-5.8Z"
-        stroke="currentColor"
-        strokeWidth="1.6"
-      />
-      <path d="M17.3 6.7h.01" stroke="currentColor" strokeWidth="2.8" />
+      <g transform="translate(0.95 0.95) scale(0.92)">
+        <path
+          d="M8 3.8h8A4.2 4.2 0 0 1 20.2 8v8A4.2 4.2 0 0 1 16 20.2H8A4.2 4.2 0 0 1 3.8 16V8A4.2 4.2 0 0 1 8 3.8Z"
+          stroke="currentColor"
+          strokeWidth="1.6"
+        />
+        <path
+          d="M12 9.1a2.9 2.9 0 1 0 0 5.8 2.9 2.9 0 0 0 0-5.8Z"
+          stroke="currentColor"
+          strokeWidth="1.6"
+        />
+        <path d="M17.3 6.7h.01" stroke="currentColor" strokeWidth="2.8" />
+      </g>
     </svg>
   );
 }
@@ -225,13 +229,13 @@ export function Header() {
                     </a>
                   </div>
 
-                  <div className="flex items-center gap-3 text-zinc-900">
+                  <div className="flex items-center gap-2 text-zinc-900">
                     <a
                       href="https://www.facebook.com/profile.php?id=61585079669583"
                       target="_blank"
                       rel="noreferrer"
                       aria-label="Facebook"
-                      className="rounded-md p-2 hover:bg-zinc-100"
+                      className="inline-flex h-9 w-9 items-center justify-center rounded-md hover:bg-zinc-100"
                     >
                       <FacebookIcon className="h-5 w-5" />
                     </a>
@@ -240,9 +244,9 @@ export function Header() {
                       target="_blank"
                       rel="noreferrer"
                       aria-label="Instagram"
-                      className="rounded-md p-2 hover:bg-zinc-100"
+                      className="inline-flex h-9 w-9 items-center justify-center rounded-md hover:bg-zinc-100"
                     >
-                      <InstagramIcon className="h-5 w-5" />
+                      <InstagramIcon className="h-5 w-5 translate-y-[1px]" />
                     </a>
                   </div>
                 </div>

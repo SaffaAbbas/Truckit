@@ -46,7 +46,7 @@ export function WhyChooseUs({
           </div>
 
           <div className="relative overflow-hidden rounded-xl bg-zinc-100">
-            <div className="aspect-[4/3] w-full">
+            <div className="relative aspect-[4/3] w-full">
               <Image
                 src={imageSrc}
                 alt=""

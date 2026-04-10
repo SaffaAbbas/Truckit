@@ -29,7 +29,7 @@ export function OurTrucks({
       <Container>
         <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
           <div className="relative overflow-hidden rounded-xl bg-zinc-100">
-            <div className="aspect-[16/9] w-full">
+            <div className="relative aspect-[16/9] w-full">
               <Image
                 src={imageSrc}
                 alt=""

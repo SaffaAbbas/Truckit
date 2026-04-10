@@ -41,7 +41,7 @@ export function ServicesAreas({
   return (
     <section className="bg-[#F5F5F5] py-16 font-sans text-black">
       <Container>
-        <div className="max-w-3xl">
+        <div className="max-w-none lg:max-w-5xl">
           <div className="text-xs font-medium text-[#4474E7]">{eyebrow}</div>
           <h2 className="font-heading mt-2 text-xl font-extrabold tracking-tight text-zinc-950 sm:text-3xl">
             {title}
@@ -56,7 +56,7 @@ export function ServicesAreas({
               className="overflow-hidden rounded-lg bg-white shadow-sm ring-1 ring-black/5"
             >
               <div className="relative bg-zinc-100">
-                <div className="aspect-[16/7] w-full">
+                <div className="relative aspect-[16/7] w-full">
                   <Image
                     src={s.imageSrc}
                     alt=""

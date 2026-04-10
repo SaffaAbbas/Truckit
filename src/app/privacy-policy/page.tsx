@@ -9,14 +9,11 @@ export default function PrivacyPolicyPage() {
         title="PRIVACY POLICY"
         backgroundImageSrc="/images/bg.png"
         showCta={false}
-        contentClassName="min-h-[70vh] sm:min-h-[75vh] lg:min-h-[85vh] flex items-start pt-44 sm:pt-52 lg:pt-64"
       />
       <section className="bg-white py-16">
         <Container>
           <div className="mx-auto max-w-4xl text-left font-sans text-black">
-            <p className="text-sm font-medium text-zinc-700">
-              Last updated: April, 2026
-            </p>
+            <p>Last Updated: April, 2026</p>
             <p className="mt-4 text-sm leading-7">
               Truck It Bahamas (&quot;Company,&quot; &quot;we,&quot;
               &quot;us,&quot; or &quot;our&quot;) respects your privacy and is
@@ -63,8 +60,8 @@ export default function PrivacyPolicyPage() {
                   2. Information We Collect
                 </h2>
                 <p className="mt-3 text-sm leading-7">
-                  We may collect and process the following categories of personal
-                  data:
+                  We may collect and process the following categories of
+                  personal data:
                 </p>
                 <div className="mt-4 space-y-6 text-sm leading-7">
                   <div>
@@ -130,10 +127,10 @@ export default function PrivacyPolicyPage() {
                   <li>
                     To improve our website, services, and customer experience
                   </li>
+                  <li>To detect fraud, prevent misuse, and enhance security</li>
                   <li>
-                    To detect fraud, prevent misuse, and enhance security
+                    To comply with legal obligations and enforce our terms
                   </li>
-                  <li>To comply with legal obligations and enforce our terms</li>
                 </ul>
               </section>
 
@@ -203,8 +200,8 @@ export default function PrivacyPolicyPage() {
                 </h2>
                 <p className="mt-3 text-sm leading-7">
                   Your personal data may be transferred to and processed in
-                  countries outside The Bahamas, including jurisdictions that may
-                  not provide the same level of data protection.
+                  countries outside The Bahamas, including jurisdictions that
+                  may not provide the same level of data protection.
                 </p>
                 <p className="mt-3 text-sm leading-7">
                   Where this occurs, we take reasonable steps to ensure
@@ -226,8 +223,8 @@ export default function PrivacyPolicyPage() {
                   <li>Resolve disputes and enforce agreements</li>
                 </ul>
                 <p className="mt-4 text-sm leading-7">
-                  When data is no longer required, it will be securely deleted or
-                  anonymized.
+                  When data is no longer required, it will be securely deleted
+                  or anonymized.
                 </p>
               </section>
 
@@ -243,9 +240,7 @@ export default function PrivacyPolicyPage() {
                   Types of cookies we use:
                 </p>
                 <ul className="mt-2 list-disc space-y-2 pl-5 text-sm leading-7">
-                  <li>
-                    Essential cookies: necessary for site functionality
-                  </li>
+                  <li>Essential cookies: necessary for site functionality</li>
                   <li>
                     Analytics cookies: to understand how users interact with the
                     Site
@@ -256,9 +251,9 @@ export default function PrivacyPolicyPage() {
                   </li>
                 </ul>
                 <p className="mt-4 text-sm leading-7">
-                  You can manage or disable cookies through your browser settings.
-                  Some features of the Site may not function properly if cookies
-                  are disabled.
+                  You can manage or disable cookies through your browser
+                  settings. Some features of the Site may not function properly
+                  if cookies are disabled.
                 </p>
               </section>
 
@@ -297,8 +292,8 @@ export default function PrivacyPolicyPage() {
                   10. Data Security
                 </h2>
                 <p className="mt-3 text-sm leading-7">
-                  We implement appropriate technical and organizational measures to
-                  protect personal data, including:
+                  We implement appropriate technical and organizational measures
+                  to protect personal data, including:
                 </p>
                 <ul className="mt-4 list-disc space-y-2 pl-5 text-sm leading-7">
                   <li>Secure servers and encryption where appropriate</li>
@@ -317,9 +312,9 @@ export default function PrivacyPolicyPage() {
                 </h2>
                 <p className="mt-3 text-sm leading-7">
                   Our services are not intended for individuals under the age of
-                  18. We do not knowingly collect personal data from children. If
-                  we become aware that such data has been collected, we will take
-                  steps to delete it.
+                  18. We do not knowingly collect personal data from children.
+                  If we become aware that such data has been collected, we will
+                  take steps to delete it.
                 </p>
               </section>
 
@@ -355,8 +350,8 @@ export default function PrivacyPolicyPage() {
                   14. Contact Us
                 </h2>
                 <p className="mt-3 text-sm leading-7">
-                  If you have any questions about this Privacy Policy or how your
-                  data is handled, please contact:
+                  If you have any questions about this Privacy Policy or how
+                  your data is handled, please contact:
                 </p>
                 <div className="mt-3 text-sm leading-7">
                   <div>Truck It Bahamas</div>

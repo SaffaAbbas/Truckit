@@ -9,14 +9,11 @@ export default function TermsAndConditionsPage() {
         title="TERMS & CONDITIONS"
         backgroundImageSrc="/images/bg.png"
         showCta={false}
-        contentClassName="min-h-[70vh] sm:min-h-[75vh] lg:min-h-[85vh] flex items-start pt-44 sm:pt-52 lg:pt-64"
       />
       <section className="bg-white py-16">
         <Container>
           <div className="mx-auto max-w-4xl text-left font-sans text-black">
-            <p className="text-sm font-medium text-zinc-700">
-              Last updated: April, 2026
-            </p>
+            <p>Last Updated: April, 2026</p>
             <p className="mt-4 text-sm leading-7">
               These Terms and Conditions (&quot;Terms&quot;) govern your access
               to and use of the website{" "}
