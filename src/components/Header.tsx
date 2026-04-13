@@ -237,7 +237,7 @@ export function Header() {
                       aria-label="Facebook"
                       className="inline-flex items-center justify-center rounded-md p-1 hover:bg-zinc-100"
                     >
-                      <FacebookIcon className="block h-5 w-5 -translate-y-[2px]" />
+                      <FacebookIcon className="block h-5 w-5 -translate-y-[3px]" />
                     </a>
                     <a
                       href="https://www.instagram.com/truckitbahamas/"
