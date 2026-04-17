@@ -85,6 +85,35 @@ export function Footer() {
           {/* <div className="grid gap-12 py-16 md:grid-cols-3 md:gap-20 md:items-center"> */}
           {/* Logo */}
           <div className="flex items-start justify-center md:justify-start md:items-start">
+            <div className="flex flex-col items-center md:items-start">
+              <div className="mb-4 w-full">
+                <div className="text-sm font-semibold text-white/90 text-center md:text-left">
+                  Partnering with
+                </div>
+                <div className="mt-3 flex flex-col items-center justify-center gap-3 md:items-start md:justify-start">
+                  <Image
+                    src="/images/footer1.png"
+                    alt="Partner logo 1"
+                    width={220}
+                    height={90}
+                    className="h-14 w-44 object-contain opacity-95"
+                  />
+                  <Image
+                    src="/images/footer2.png"
+                    alt="Partner logo 2"
+                    width={220}
+                    height={90}
+                    className="h-14 w-44 object-contain opacity-95"
+                  />
+                  <Image
+                    src="/images/logo%20white.png"
+                    alt="TRUCKIT partner logo"
+                    width={220}
+                    height={90}
+                    className="h-14 w-44 object-contain opacity-95"
+                  />
+                </div>
+              </div>
             <Image
               src="/images/logo.png"
               alt="TRUCKIT"
@@ -92,6 +121,7 @@ export function Footer() {
               height={52}
               className="h-20 w-auto object-contain md:mb-10"
             />
+            </div>
           </div>
 
           {/* Links */}
