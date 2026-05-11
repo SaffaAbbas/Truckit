@@ -7,12 +7,16 @@ const defaultSpecs = [
   { label: "Engine power", value: "371 HP" },
   { label: "Maximum gross weight", value: "up to 50,000 kg (110,231 lbs)" },
   { label: "Unladen weight", value: "approx. 8,800 kg (19,400 lbs)" },
+  {
+    label: "Chassis available for rent",
+    value: "",
+  },
 ] as const;
 
 export function OurTrucks({
   eyebrow = "Our Trucks",
   title = "BUILT TO MOVE HEAVY LOADS SAFELY AND EFFICIENTLY",
-  description = " Our 6×4 truck is designed for heavy-duty transport, construction logistics, and industrial hauling. Transportation and operator included.",
+  description = " Our 6×4 truck is designed for heavy-duty transport, construction logistics, containers and industrial hauling. Transportation and operator included.",
   specsTitle = "Truck Specifications:",
   specs = defaultSpecs,
   imageSrc = "/images/truck2.png",
@@ -55,7 +59,10 @@ export function OurTrucks({
             <ul className="mt-2 list-disc space-y-1 pl-5 text-sm leading-6 text-zinc-700">
               {specs.map((s) => (
                 <li key={s.label}>
-                  <span className="font-medium text-zinc-900">{s.label}:</span>{" "}
+                  <span className="font-medium text-zinc-900">
+                    {s.label}
+                    {s.value && ":"}
+                  </span>{" "}
                   {s.value}
                 </li>
               ))}
